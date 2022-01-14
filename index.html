@@ -18,112 +18,125 @@
       </div>
     </div>
     <div class="container">
-      <form>
-        <div class="radio">
-          <label>
-            <h6>Why Do You Want to Learn to Code?</h6>
-            <input type="radio" name="flavor" value="chocolate" checked />
-            Be a professional developer!
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="flavor" value="vanilla" />
-            Run a startup!
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="flavor" value="cookiesandcream" />
-            Build something fun!
-          </label>
-        </div>
-      </form>
-      <form>
-        <div class="radio">
-          <label>
-            <h6>What would you like to create?</h6>
-            <input type="radio" name="flavor" value="chocolate" checked />
-            Websites
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="flavor" value="vanilla" />
-            Video games
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="flavor" value="cookiesandcream" />
-            Mobile applications
-          </label>
-        </div>
-      </form>
-      <form>
-        <div class="radio">
-          <label>
-            <h6>Do you want a language that is easy to learn?</h6>
-            <input type="radio" name="flavor" value="chocolate" checked />
-            Yes
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="flavor" value="vanilla" />
-            No
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="flavor" value="cookiesandcream" />
-            I don't care!
-          </label>
-        </div>
-      </form>
-      <form>
-        <div class="radio">
-          <label>
-            <h6>Which operating system do you prefer?</h6>
-            <input type="radio" name="flavor" value="chocolate" checked />
-            Windows
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="flavor" value="vanilla" />
-            MacOS
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="flavor" value="cookiesandcream" />
-            Linux
-          </label>
-        </div>
-      </form>
-      <form>
-        <div class="radio">
-          <label>
-            <h6>What's your favorite type of animal?</h6>
-            <input type="radio" name="flavor" value="chocolate" checked />
-            Snake
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="flavor" value="vanilla" />
-            Bird
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="flavor" value="cookiesandcream" />
-            Rhino
-          </label>
-        </div>
+      <form id="programming-language-form">
+        <fieldset id="question1">
+          <div class="radio">
+            <label>
+              <h6>Why Do You Want to Learn to Code?</h6>
+              <input type="radio" name="why" value="prodev" checked />
+              Be a professional developer!
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="why" value="startup" />
+              Run a startup!
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="why" value="fun" />
+              Build something fun!
+            </label>
+          </div>
+        </fieldset>
+        <fieldset id="question2">
+          <div class="radio">
+            <label>
+              <h6>What would you like to create?</h6>
+              <input type="radio" name="what" value="websites" checked />
+              Websites
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="what" value="video-games" />
+              Video games
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="what" value="mobile-applications" />
+              Mobile applications
+            </label>
+          </div>
+        </fieldset>
+        <fieldset id="question3">
+          <div class="radio">
+            <label>
+              <h6>Do you want a language that is easy to learn?</h6>
+              <input type="radio" name="difficulty" value="easy" checked />
+              Yes
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="difficulty" value="hard" />
+              No
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="difficulty" value="no-preference" />
+              I don't care!
+            </label>
+          </div>
+        </fieldset>
+        <fieldset id="question4">
+          <div class="radio">
+            <label>
+              <h6>Which operating system do you prefer?</h6>
+              <input type="radio" name="os" value="windows" checked />
+              Windows
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="os" value="mac-os" />
+              MacOS
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="os" value="linux" />
+              Linux
+            </label>
+          </div>
+        </fieldset>
+        <fieldset id="question5">
+          <div class="radio">
+            <label>
+              <h6>What's your favorite type of animal?</h6>
+              <input type="radio" name="animal" value="snake" checked />
+              Snake
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="animal" value="bird" />
+              Bird
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="animal" value="rhino" />
+              Rhino
+            </label>
+          </div>
+        </fieldset>
       </form>
       <button type="button" class="btn btn-primary">Submit!</button>
+    </div>
+    <div class="container">
+      <div id="Python">
+        <h3>Python!</h3>
+      </div>
+      <div id="Javascript">
+        <h3>Javascript!</h3>
+      </div>
+      <div id="C">
+        <h3>C!</h3>
+      </div>
     </div>
   </body>
 </html>
