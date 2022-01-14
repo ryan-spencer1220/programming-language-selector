@@ -24,7 +24,7 @@ _This application was designed to help users find the perfect programming langua
 
 _OR_
 
-- _Navigate Here: https://ryan-spencer1220.github.io/portfolio-landing-page/_
+- _Navigate Here: https://ryan-spencer1220.github.io/programming-language-selector_
 
 ## Known Bugs
 

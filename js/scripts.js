@@ -10,7 +10,7 @@ $(document).ready(function () {
 
     $(".name").text(name);
 
-    if (whatCode === "websites") {
+    if (whatCode === "websites" && whyCode == "prodev") {
       $("#Python").hide();
       $("#Javascript").fadeIn();
       $("#Java").hide();
@@ -47,7 +47,7 @@ $(document).ready(function () {
       $("#C-sharp").hide();
       $("#Go").hide();
       $("#Swift").fadeIn();
-      $("#Kotlin").fadeIn();
+      $("#Kotlin").hide();
       $("#PHP").hide();
     } else if (difficultCode === "easy" && favoriteAnimal === "snake") {
       $("#Python").fadeIn();
@@ -93,7 +93,7 @@ $(document).ready(function () {
       $("#Swift").hide();
       $("#Kotlin").hide();
       $("#PHP").hide();
-    } else if (whyCode === "prodev" && difficultCode === "easy") {
+    } else if (operatingSystem === "linux" && whyCode === "websites") {
       $("#Python").hide();
       $("#Javascript").hide();
       $("#Java").hide();
