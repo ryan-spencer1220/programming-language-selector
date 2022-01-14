@@ -6,7 +6,7 @@ $(document).ready(function () {
     const difficultCode = $("input:radio[name=difficulty]:checked").val();
     const operatingSystem = $("input:radio[name=os]:checked").val();
     const favoriteAnimal = $("input:radio[name=animal]:checked").val();
-    if (whyCode === "websites") {
+    if (whatCode === "websites") {
       $("#Python").hide();
       $("#Javascript").show();
       $("#Java").hide();
@@ -15,6 +15,34 @@ $(document).ready(function () {
       $("#C-sharp").hide();
       $("#Go").hide();
       $("#Swift").hide();
+      $("#Kotlin").hide();
+      $("#PHP").hide();
+    } else if (
+      operatingSystem === "windows" &&
+      whatCode === "mobile-applications"
+    ) {
+      $("#Python").hide();
+      $("#Javascript").hide();
+      $("#Java").hide();
+      $("#C").hide();
+      $("#C-plus-plus").hide();
+      $("#C-sharp").hide();
+      $("#Go").hide();
+      $("#Swift").hide();
+      $("#Kotlin").show();
+      $("#PHP").hide();
+    } else if (
+      operatingSystem === "mac-os" &&
+      whatCode === "mobile-applications"
+    ) {
+      $("#Python").hide();
+      $("#Javascript").hide();
+      $("#Java").hide();
+      $("#C").hide();
+      $("#C-plus-plus").hide();
+      $("#C-sharp").hide();
+      $("#Go").hide();
+      $("#Swift").show();
       $("#Kotlin").hide();
       $("#PHP").hide();
     } else if (difficultCode === "easy" && favoriteAnimal === "snake") {
@@ -70,34 +98,6 @@ $(document).ready(function () {
       $("#C-sharp").hide();
       $("#Go").show();
       $("#Swift").hide();
-      $("#Kotlin").hide();
-      $("#PHP").hide();
-    } else if (
-      operatingSystem === "windows" &&
-      whatCode === "mobile-applications"
-    ) {
-      $("#Python").hide();
-      $("#Javascript").hide();
-      $("#Java").hide();
-      $("#C").hide();
-      $("#C-plus-plus").hide();
-      $("#C-sharp").hide();
-      $("#Go").hide();
-      $("#Swift").hide();
-      $("#Kotlin").show();
-      $("#PHP").hide();
-    } else if (
-      operatingSystem === "mac-os" &&
-      whatCode === "mobile-applications"
-    ) {
-      $("#Python").hide();
-      $("#Javascript").hide();
-      $("#Java").hide();
-      $("#C").hide();
-      $("#C-plus-plus").hide();
-      $("#C-sharp").hide();
-      $("#Go").hide();
-      $("#Swift").show();
       $("#Kotlin").hide();
       $("#PHP").hide();
     } else {
