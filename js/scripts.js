@@ -12,7 +12,7 @@ $(document).ready(function () {
 
     if (whatCode === "websites") {
       $("#Python").hide();
-      $("#Javascript").show();
+      $("#Javascript").fadeIn();
       $("#Java").hide();
       $("#C").hide();
       $("#C-plus-plus").hide();
@@ -33,7 +33,7 @@ $(document).ready(function () {
       $("#C-sharp").hide();
       $("#Go").hide();
       $("#Swift").hide();
-      $("#Kotlin").show();
+      $("#Kotlin").fadeIn();
       $("#PHP").hide();
     } else if (
       operatingSystem === "mac-os" &&
@@ -46,11 +46,11 @@ $(document).ready(function () {
       $("#C-plus-plus").hide();
       $("#C-sharp").hide();
       $("#Go").hide();
-      $("#Swift").show();
-      $("#Kotlin").hide();
+      $("#Swift").fadeIn();
+      $("#Kotlin").fadeIn();
       $("#PHP").hide();
     } else if (difficultCode === "easy" && favoriteAnimal === "snake") {
-      $("#Python").show();
+      $("#Python").fadeIn();
       $("#Javascript").hide();
       $("#Java").hide();
       $("#C").hide();
@@ -64,7 +64,7 @@ $(document).ready(function () {
       $("#Python").hide();
       $("#Javascript").hide();
       $("#Java").hide();
-      $("#C").show();
+      $("#C").fadeIn();
       $("#C-plus-plus").hide();
       $("#C-sharp").hide();
       $("#Go").hide();
@@ -76,7 +76,7 @@ $(document).ready(function () {
       $("#Javascript").hide();
       $("#Java").hide();
       $("#C").hide();
-      $("#C-plus-plus").show();
+      $("#C-plus-plus").fadeIn();
       $("#C-sharp").hide();
       $("#Go").hide();
       $("#Swift").hide();
@@ -88,7 +88,7 @@ $(document).ready(function () {
       $("#Java").hide();
       $("#C").hide();
       $("#C-plus-plus").hide();
-      $("#C-sharp").show();
+      $("#C-sharp").fadeIn();
       $("#Go").hide();
       $("#Swift").hide();
       $("#Kotlin").hide();
@@ -100,7 +100,7 @@ $(document).ready(function () {
       $("#C").hide();
       $("#C-plus-plus").hide();
       $("#C-sharp").hide();
-      $("#Go").show();
+      $("#Go").fadeIn();
       $("#Swift").hide();
       $("#Kotlin").hide();
       $("#PHP").hide();
@@ -114,7 +114,7 @@ $(document).ready(function () {
       $("#Go").hide();
       $("#Swift").hide();
       $("#Kotlin").hide();
-      $("#PHP").show();
+      $("#PHP").fadeIn();
     }
   });
 });
