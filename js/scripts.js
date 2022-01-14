@@ -6,18 +6,116 @@ $(document).ready(function () {
     const difficultCode = $("input:radio[name=difficulty]:checked").val();
     const operatingSystem = $("input:radio[name=os]:checked").val();
     const favoriteAnimal = $("input:radio[name=animal]:checked").val();
-    if (whatCode === "websites") {
+    if (whyCode === "websites" && difficultCode === "no-preference") {
+      $("#Python").hide();
       $("#Javascript").show();
-      $("#Python").hidden();
-      $("#C").hidden();
-    } else if (difficultCode === "easy" && whyCode === "fun") {
-      $("#Javascript").hidden();
-      $("#Python").show();
-      $("#C").hidden();
+      $("#Java").hide();
+      $("#C").hide();
+      $("#C-plus-plus").hide();
+      $("#C-sharp").hide();
+      $("#Go").hide();
+      $("#Swift").hide();
+      $("#Kotlin").hide();
+      $("#PHP").hide();
+    } else if (favoriteAnimal === "snake") {
+      $("#Python").hide();
+      $("#Javascript").hide();
+      $("#Java").hide();
+      $("#C").hide();
+      $("#C-plus-plus").hide();
+      $("#C-sharp").hide();
+      $("#Go").hide();
+      $("#Swift").hide();
+      $("#Kotlin").hide();
+      $("#PHP").hide();
+    } else if (favoriteAnimal === "snake") {
+      $("#Python").hide();
+      $("#Javascript").hide();
+      $("#Java").hide();
+      $("#C").hide();
+      $("#C-plus-plus").hide();
+      $("#C-sharp").hide();
+      $("#Go").hide();
+      $("#Swift").hide();
+      $("#Kotlin").hide();
+      $("#PHP").hide();
+    } else if (favoriteAnimal === "snake") {
+      $("#Python").hide();
+      $("#Javascript").hide();
+      $("#Java").hide();
+      $("#C").hide();
+      $("#C-plus-plus").hide();
+      $("#C-sharp").hide();
+      $("#Go").hide();
+      $("#Swift").hide();
+      $("#Kotlin").hide();
+      $("#PHP").hide();
+    } else if (favoriteAnimal === "snake") {
+      $("#Python").hide();
+      $("#Javascript").hide();
+      $("#Java").hide();
+      $("#C").hide();
+      $("#C-plus-plus").hide();
+      $("#C-sharp").hide();
+      $("#Go").hide();
+      $("#Swift").hide();
+      $("#Kotlin").hide();
+      $("#PHP").hide();
+    } else if (favoriteAnimal === "snake") {
+      $("#Python").hide();
+      $("#Javascript").hide();
+      $("#Java").hide();
+      $("#C").hide();
+      $("#C-plus-plus").hide();
+      $("#C-sharp").hide();
+      $("#Go").hide();
+      $("#Swift").hide();
+      $("#Kotlin").hide();
+      $("#PHP").hide();
+    } else if (favoriteAnimal === "snake") {
+      $("#Python").hide();
+      $("#Javascript").show();
+      $("#Java").hide();
+      $("#C").hide();
+      $("#C-plus-plus").hide();
+      $("#C-sharp").hide();
+      $("#Go").hide();
+      $("#Swift").hide();
+      $("#Kotlin").hide();
+      $("#PHP").hide();
+    } else if (favoriteAnimal === "snake") {
+      $("#Python").hide();
+      $("#Javascript").hide();
+      $("#Java").hide();
+      $("#C").hide();
+      $("#C-plus-plus").hide();
+      $("#C-sharp").hide();
+      $("#Go").hide();
+      $("#Swift").hide();
+      $("#Kotlin").hide();
+      $("#PHP").hide();
+    } else if (favoriteAnimal === "snake") {
+      $("#Python").hide();
+      $("#Javascript").hide();
+      $("#Java").hide();
+      $("#C").hide();
+      $("#C-plus-plus").hide();
+      $("#C-sharp").hide();
+      $("#Go").hide();
+      $("#Swift").hide();
+      $("#Kotlin").hide();
+      $("#PHP").hide();
     } else {
-      $("#Javascript").hidden();
-      $("#Python").show();
-      $("#C").hidden();
+      $("#Python").hide();
+      $("#Javascript").hide();
+      $("#Java").hide();
+      $("#C").hide();
+      $("#C-plus-plus").hide();
+      $("#C-sharp").hide();
+      $("#Go").hide();
+      $("#Swift").hide();
+      $("#Kotlin").hide();
+      $("#PHP").show();
     }
   });
 });
