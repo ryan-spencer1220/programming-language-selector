@@ -1,59 +1,74 @@
+.name-input {
+  margin-bottom: 2%;
+  width: 300px;
+}
+
 #Python {
   display: none;
   width: 250px;
-  height: 250px;
+  margin-left: 15%;
+  margin-top: 5%;
 }
 
 #Javascript {
   display: none;
   width: 250px;
-  height: 250px;
+  margin-left: 15%;
+  margin-top: 5%;
 }
 
 #Java {
   display: none;
   width: 250px;
-  height: 250px;
+  margin-left: 15%;
+  margin-top: 5%;
 }
 
 #C {
   display: none;
   width: 250px;
-  height: 250px;
+  margin-left: 15%;
+  margin-top: 5%;
 }
 
 #C-plus-plus {
   display: none;
   width: 250px;
-  height: 250px;
+  margin-left: 15%;
+  margin-top: 5%;
 }
 
 #C-sharp {
   display: none;
   width: 250px;
-  height: 250px;
+  margin-left: 15%;
+  margin-top: 5%;
 }
 
 #Go {
   display: none;
   width: 250px;
-  height: 250px;
+  margin-left: 15%;
+  margin-top: 5%;
 }
 
 #Swift {
   display: none;
   width: 250px;
-  height: 250px;
+  margin-left: 15%;
+  margin-top: 5%;
 }
 
 #Kotlin {
   display: none;
   width: 250px;
-  height: 250px;
+  margin-left: 15%;
+  margin-top: 5%;
 }
 
 #PHP {
   display: none;
   width: 250px;
-  height: 250px;
+  margin-left: 15%;
+  margin-top: 5%;
 }

@@ -6,6 +6,10 @@ $(document).ready(function () {
     const difficultCode = $("input:radio[name=difficulty]:checked").val();
     const operatingSystem = $("input:radio[name=os]:checked").val();
     const favoriteAnimal = $("input:radio[name=animal]:checked").val();
+    const name = $("input#name").val();
+
+    $(".name").text(name);
+
     if (whatCode === "websites") {
       $("#Python").hide();
       $("#Javascript").show();

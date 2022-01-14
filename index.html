@@ -14,15 +14,19 @@
     <div class="container">
       <div class="jumbotron">
         <h1>Programming Language Selector</h1>
-        <h3>Find The Perfect Programming Language!</h3>
+        <h3>Find The Perfect Programming Language To Meet Your Goals!</h3>
       </div>
     </div>
     <div class="container">
       <form id="programming-language-form">
+        <div class="name-input">
+          <label for="name">Name</label>
+          <input id="name" class="form-control" type="text" />
+        </div>
         <fieldset id="question1">
           <div class="radio">
             <label>
-              <h6>Why Do You Want to Learn to Code?</h6>
+              <h5>Why do you want to learn to code?</h5>
               <input type="radio" name="why" value="prodev" checked />
               Be a professional developer!
             </label>
@@ -43,7 +47,7 @@
         <fieldset id="question2">
           <div class="radio">
             <label>
-              <h6>What would you like to create?</h6>
+              <h5>What would you like to create?</h5>
               <input type="radio" name="what" value="websites" checked />
               Websites
             </label>
@@ -64,7 +68,7 @@
         <fieldset id="question3">
           <div class="radio">
             <label>
-              <h6>Do you want a language that is easy to learn?</h6>
+              <h5>Do you want a language that is easy to learn?</h5>
               <input type="radio" name="difficulty" value="easy" checked />
               Yes
             </label>
@@ -85,7 +89,7 @@
         <fieldset id="question4">
           <div class="radio">
             <label>
-              <h6>Which operating system do you prefer?</h6>
+              <h5>Which operating system do you prefer?</h5>
               <input type="radio" name="os" value="windows" checked />
               Windows
             </label>
@@ -106,7 +110,7 @@
         <fieldset id="question5">
           <div class="radio">
             <label>
-              <h6>What's your favorite type of animal?</h6>
+              <h5>What's your favorite type of animal?</h5>
               <input type="radio" name="animal" value="snake" checked />
               Snake
             </label>
@@ -127,44 +131,75 @@
         <button type="submit" class="btn btn-primary">Submit!</button>
       </form>
     </div>
-    <div class="container">
+    <div class="result">
       <div id="Python">
-        <h3>Python!</h3>
+        <h6>
+          Hey <span class="name"></span>! We think that Python is the perfect
+          language for you to learn!
+        </h6>
+        <img src="img/python-original.svg" alt="Python" />
       </div>
       <div id="Javascript">
-        <h3>Javascript!</h3>
+        <h6>
+          Hey <span class="name"></span>! We think that Javascript is the
+          perfect language for you to learn!
+        </h6>
         <img src="img/javascript-original.svg" alt="Javascript" />
       </div>
       <div id="Java">
-        <h3>Java!</h3>
+        <h6>
+          Hey <span class="name"></span>! We think that Java is the perfect
+          language for you to learn!
+        </h6>
         <img src="img/java-original.svg" alt="Java" />
       </div>
       <div id="C">
-        <h3>C!</h3>
+        <h6>
+          Hey <span class="name"></span>! We think that C is the perfect
+          language for you to learn!
+        </h6>
         <img src="img/c-line.svg" alt="C" />
       </div>
       <div id="C-plus-plus">
-        <h3>C++!</h3>
+        <h6>
+          Hey <span class="name"></span>! We think that C++ is the perfect
+          language for you to learn!
+        </h6>
         <img src="img/cplusplus-line.svg" alt="C++" />
       </div>
       <div id="C-sharp">
-        <h3>C#!</h3>
+        <h6>
+          Hey <span class="name"></span>! We think that C# is the perfect
+          language for you to learn!
+        </h6>
         <img src="img/csharp-original.svg" alt="C#" />
       </div>
       <div id="Go">
-        <h3>Go!</h3>
+        <h6>
+          Hey <span class="name"></span>! We think that Go is the perfect
+          language for you to learn!
+        </h6>
         <img src="img/go-original.svg" alt="Go" />
       </div>
       <div id="Swift">
-        <h3>Swift!</h3>
+        <h6>
+          Hey <span class="name"></span>! We think that Swift is the perfect
+          language for you to learn!
+        </h6>
         <img src="img/swift-original.svg" alt="Swift" />
       </div>
       <div id="Kotlin">
-        <h3>Kotlin!</h3>
+        <h6>
+          Hey <span class="name"></span>! We think that Kotlin is the perfect
+          language for you to learn!
+        </h6>
         <img src="img/kotlin-plain.svg" alt="Kotlin" />
       </div>
       <div id="PHP">
-        <h3>PHP!</h3>
+        <h6>
+          Hey <span class="name"></span>! We think that PHP is the perfect
+          language for you to learn!
+        </h6>
         <img src="img/php-original.svg" alt="PHP" />
       </div>
     </div>
