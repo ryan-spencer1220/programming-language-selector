@@ -1,14 +1,18 @@
 $(document).ready(function () {
   $("form#programming-language-form").submit(function (event) {
     event.preventDefault();
-    const whyCode = "select#question1".val();
-    const whatCode = "checked#question2".val();
-    const easyCode = "checked#question3".val();
-    const whichOS = "checked#question4".val();
-    const favoriteAnimal = "checked#question5".val();
-    if (whyCode === "fun") {
+    const whyCode = $("input:radio[name=why]:checked").val();
+    const whatCode = $("input:radio[name=what]:checked").val();
+    const difficultCode = $("input:radio[name=difficulty]:checked").val();
+    const operatingSystem = $("input:radio[name=os]:checked").val();
+    const favoriteAnimal = $("input:radio[name=animal]:checked").val();
+    if (whatCode === "websites") {
       $("#Javascript").show();
       $("#Python").hidden();
+      $("#C").hidden();
+    } else if (difficultCode === "easy" && whyCode === "fun") {
+      $("#Javascript").hidden();
+      $("#Python").show();
       $("#C").hidden();
     } else {
       $("#Javascript").hidden();
