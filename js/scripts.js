@@ -62,7 +62,11 @@ $(document).ready(function () {
       $("#Swift").hide();
       $("#Kotlin").hide();
       $("#PHP").hide();
-    } else if (difficultCode === "hard" && whatCode === "video-games") {
+    } else if (
+      difficultCode === "hard" &&
+      whatCode === "video-games" &&
+      whyCode === "prodev"
+    ) {
       $("#Python").hide();
       $("#Javascript").hide();
       $("#Java").hide();
@@ -73,7 +77,11 @@ $(document).ready(function () {
       $("#Swift").hide();
       $("#Kotlin").hide();
       $("#PHP").hide();
-    } else if (whyCode === "prodev" && whatCode === "video-games") {
+    } else if (
+      whyCode === "prodev" &&
+      whatCode === "video-games" &&
+      difficultCode === "no-preference"
+    ) {
       $("#Python").hide();
       $("#Javascript").hide();
       $("#Java").hide();
