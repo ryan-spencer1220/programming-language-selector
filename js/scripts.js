@@ -23,7 +23,8 @@ $(document).ready(function () {
       $("#PHP").hide();
     } else if (
       operatingSystem === "windows" &&
-      whatCode === "mobile-applications"
+      whatCode === "mobile-applications" &&
+      whyCode === "prodev"
     ) {
       $("#Python").hide();
       $("#Javascript").hide();
@@ -37,7 +38,8 @@ $(document).ready(function () {
       $("#PHP").hide();
     } else if (
       operatingSystem === "mac-os" &&
-      whatCode === "mobile-applications"
+      whatCode === "mobile-applications" &&
+      favoriteAnimal == "bird"
     ) {
       $("#Python").hide();
       $("#Javascript").hide();
@@ -82,7 +84,11 @@ $(document).ready(function () {
       $("#Swift").hide();
       $("#Kotlin").hide();
       $("#PHP").hide();
-    } else if (whatCode === "mobile-applications" && difficultCode === "hard") {
+    } else if (
+      whatCode === "mobile-applications" &&
+      difficultCode === "hard" &&
+      operatingSystem === "linux"
+    ) {
       $("#Python").hide();
       $("#Javascript").hide();
       $("#Java").hide();
@@ -93,7 +99,7 @@ $(document).ready(function () {
       $("#Swift").hide();
       $("#Kotlin").hide();
       $("#PHP").hide();
-    } else if (operatingSystem === "linux" && whyCode === "websites") {
+    } else if (favoriteAnimal === "gopher" && difficultCode === "easy") {
       $("#Python").hide();
       $("#Javascript").hide();
       $("#Java").hide();
@@ -101,6 +107,21 @@ $(document).ready(function () {
       $("#C-plus-plus").hide();
       $("#C-sharp").hide();
       $("#Go").fadeIn();
+      $("#Swift").hide();
+      $("#Kotlin").hide();
+      $("#PHP").hide();
+    } else if (
+      whatCode === "mobile-applications" &&
+      whyCode === "startup" &&
+      difficultCode === "hard"
+    ) {
+      $("#Python").hide();
+      $("#Javascript").hide();
+      $("#Java").fadeIn();
+      $("#C").hide();
+      $("#C-plus-plus").hide();
+      $("#C-sharp").hide();
+      $("#Go").hide();
       $("#Swift").hide();
       $("#Kotlin").hide();
       $("#PHP").hide();
