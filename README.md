@@ -20,7 +20,7 @@ _This application was designed to help users find the perfect programming langua
 
 - _Navigate to the top level of the directory_
 
-- _Open portolio-landing-page/index.html_
+- _Open programming-language-selector/index.html_
 
 _OR_
 
